@@ -1,0 +1,3 @@
+- path: /instance_groups/name=bosh/jobs/name=credhub/properties/credhub/authentication/uaa/url
+  type: replace
+  value: https://((external_ip)):8443
